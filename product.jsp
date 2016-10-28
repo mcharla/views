@@ -4,8 +4,8 @@
 <title>Add Product Screen</title>
 </head>
 <body>
-
-	<h2>Product To Add:</h2>
+<center> 
+	<h2>Add Product Page</h2>
 	<form:form method="POST" commandName="product" action="/FirstSpringWebMVC/addProduct">
 		<table>
 			<tr>
@@ -46,5 +46,6 @@
 			</tr>
 		</table>
 	</form:form>
+	</center>
 </body>
 </html>

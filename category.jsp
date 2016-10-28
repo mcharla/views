@@ -4,8 +4,8 @@
     <title>My WareHouse Application</title>
 </head>
 <body>
-
-<h2>Category To Add:</h2>
+<center>
+<h2>Add Category Page</h2>
 <form:form method="POST" commandName="category" action="/FirstSpringWebMVC/addCategory">
    <table>
     <tr>
@@ -23,5 +23,6 @@
     </tr>
 </table>  
 </form:form>
+</center>
 </body>
 </html>
