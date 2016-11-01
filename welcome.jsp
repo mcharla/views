@@ -1,19 +1,26 @@
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1" pageEncoding="ISO-8859-1"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
+<%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles"%>
+
+<tiles:insertDefinition name="defaultTemplate">
+
+	<tiles:putAttribute name="body">
+		<html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Spring 4 MVC -HelloWorld</title>
 </head>
 <body>
 	<center>
-		<h1>
-			${displayMsg}
-		</h1>
-		
-		<a href="/FirstSpringWebMVC/category">Add Category</a>
+		<h1>${displayMsg}</h1>
+
+		<a href="/FirstSpringWebMVC/category">Add Category</a> 
+		<br>
 		<a href="/FirstSpringWebMVC/product">Add Product</a>
-		
+
 	</center>
 </body>
-</html>
+		</html>
+	</tiles:putAttribute>
+
+
+</tiles:insertDefinition>

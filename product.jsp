@@ -1,5 +1,12 @@
 <%@taglib uri="http://www.springframework.org/tags/form" prefix="form"%>
-<html>
+<%@ taglib uri="http://tiles.apache.org/tags-tiles" prefix="tiles"%>
+
+
+
+<tiles:insertDefinition name="templateWOHeader">
+ 
+    <tiles:putAttribute name="body">
+       <html>
 <head>
 <title>Add Product Screen</title>
 </head>
@@ -49,3 +56,7 @@
 	</center>
 </body>
 </html>
+    </tiles:putAttribute>
+ 
+ 
+</tiles:insertDefinition>
