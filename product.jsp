@@ -47,6 +47,7 @@
 				<td><form:label for="expiration" path="expiration" />Expiration
 					Date</td>
 				<td><form:input path="expiration" id="expiration" /></td>
+				<td style="color: red"><form:errors path="expiration" /></td>
 			</tr>
 			<tr>
 				<td><font color="red">*</font><form:label path="category.categoryName">Category Name</form:label></td>
