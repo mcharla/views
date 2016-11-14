@@ -31,17 +31,20 @@
 			<tr>
 				<td><font color="red">*</font><form:label for="productLocation" path="productLocation" />Product Location</td>
 				<td><form:input path="productLocation" id="productLocation" /></td>
+				<td style="color: red"><form:errors path="productLocation" /></td>
 			</tr>
 			<tr>
 				<td><font color="red">*</font><form:label for="productStock" path="productStock" />Product
 					Stock</td>
 				<td><form:input path="productStock" id="productStock" /></td>
+				<td style="color: red"><form:errors path="productStock" /></td>
 			</tr>
 
 			<tr>
 				<td><font color="red">*</font><form:label for="productPrice" path="productPrice" />Product
 					Price</td>
 				<td><form:input path="productPrice" id="productPrice" /></td>
+				<td style="color: red"><form:errors path="productPrice" /></td>
 			</tr>
 			<tr>
 				<td><form:label for="expiration" path="expiration" />Expiration
